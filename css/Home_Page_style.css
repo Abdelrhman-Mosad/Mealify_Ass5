@@ -1,0 +1,134 @@
+
+.home_page_main{
+    overflow: hidden;
+    padding: 0px 0px 20px 0px;
+}
+
+nav{
+    position: fixed;
+    z-index: 100;
+    background-color: white;
+    width: 100%;
+}
+.nav_wrapper{
+    padding: 12px 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_wrapper .nav_logo a{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.nav_wrapper .nav_logo a span{
+    font-size: 30px;
+    font-weight: 700;
+    color: #ff305b;
+}
+
+.nav_wrapper .nav_links{
+    background-color: white;
+    width: 30%;
+    position: absolute;
+    top: 100%;
+    right:0;
+    transition: all 3s;
+    visibility: hidden;
+}
+
+.nav_wrapper .nav_drop_btn:hover + .nav_links{
+    visibility: visible;
+}
+
+.nav_wrapper .nav_links:hover{
+    visibility: visible;
+}
+
+
+.nav_wrapper .nav_links ul{
+    padding: 0px;
+    text-align: center;
+}
+
+.nav_wrapper .nav_links li{
+    padding: 20px;
+}
+
+.nav_wrapper .nav_links a{
+    color: #a0a0a0;
+    transition: all .5s ease-in-out;
+}
+
+.nav_wrapper .nav_links a:hover{
+    color: #000000;
+}
+
+
+
+
+/******************* Home page *************************/
+.home_page_main{
+background-color: #EEEEEE;
+}
+header{
+    height: fit-content;
+    text-align: center;
+    margin-top: 95px;
+}
+
+header .hp_img img{
+    width: 90%;
+    margin: 20px auto;
+    
+}
+
+header .hp_img img:hover{
+    animation: shake .3s .1s ease-in alternate infinite;
+}
+
+@keyframes shake {
+    0% { transform: translate(0, 0) rotate(0deg); }
+    25% { transform: translate(5px, 5px) rotate(5deg); }
+    50% { transform: translate(0, 0) rotate(0eg); }
+    75% { transform: translate(-5px, 5px) rotate(-5deg); }
+    100% { transform: translate(0, 0) rotate(0deg); }
+}
+
+header .home_page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+header .hp_content{
+    width:85%;
+    margin: auto;
+}
+
+.hp_content p{
+    margin: 20px 0px;
+}
+
+.hp_content .hp_btns .btn1{
+    background-color: #E61414;
+    padding: 10px 20px;
+    color:#EEEEEE;
+    margin-right: 30px;
+    border-radius: 30px;
+}
+.hp_content .hp_btns .btn1:hover{
+    background-color: #ff305b;
+}
+
+.hp_content .hp_btns .btn2 i{
+    transform: scale(1.5);
+}
+
+.hp_content .hp_btns .btn2:hover{
+    color: #ff305b;
+}
+
+

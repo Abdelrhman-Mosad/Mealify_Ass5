@@ -1,0 +1,355 @@
+/************************* Chefs ******************************/
+
+.section_chefs_wp{
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    color: #7F7F90;
+    padding: 30px 0px;
+}
+.section_chefs_wp .sec_header{
+    margin: 20px 0px;
+}
+.section_chefs_wp .sec_header h2 span{
+    color: #ff305b;
+}
+
+.chef_items .chef_info{
+    width: 95%;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+    margin-bottom: 20px;
+    transition: all .5s;
+}
+
+.chef_items .chef_info img{
+    width: 100%;
+}
+
+.chef_items .chef_info .links_layer{
+    position: absolute;
+    right: -30%;
+    top:20px;
+    transition: all .5s;
+}
+
+.chef_items .chef_info .links_layer ul{
+    padding: 10px;
+    background-color: #D4CAC1;
+    border-radius: 20px;
+}
+
+.chef_items .chef_info .links_layer li{
+    margin: 10px 0px;
+}
+
+.chef_items .chef_info .links_layer i{
+    transform: scale(1.5);
+    color: #7F7F90;
+}
+
+.chef_items .chef_info .links_layer a:hover i{
+    color: #ff305b;
+}
+
+.chef_items .chef_info:hover .links_layer{
+    right: 20px;
+}
+
+.chef_items .chef_info:hover{
+    transform: scale(1.05);
+}
+
+
+/************************* Gallery ******************************/
+.Gallery{
+    text-align: center;
+    background-color: #EEEEEE;
+    padding: 50px 0px;
+}
+
+.Gallery_wp{
+    width: 90%;
+    margin: auto;
+}
+
+.Gallery_wp .sec_header h2 span{
+    color: #ff305b;
+}
+
+.Gallery_wp .sec_header h2{
+    margin-bottom: 30px;
+}
+
+.Gallery_wp .img_item{
+    border: 4px solid white;
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.Gallery_wp .img_item .layer{
+    color: #ffffffff;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    position: absolute;
+    top: 100%;
+    transition: all .5s;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Gallery_wp .img_item .layer h3{
+    font-size: 24px;
+    font-weight: 700;
+    width: 100%;
+}
+
+.Gallery_wp .img_item img{
+    width: 100%;
+}
+
+.Gallery_wp .img_item:hover .layer{
+    top: 0px;
+}
+
+
+/************************* contact us ******************************/
+
+.contact_wp{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.contact_wp .sec_header h2{
+    margin-bottom: 30px;
+}
+
+.contact_wp .sec_header h2 span{
+    color: #ff305b;
+}
+
+.contact_wp iframe{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 40px;
+}
+
+.contact_wp .info_items {
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact_wp .info_items .info_item {
+    display: flex;
+    width: 100%;
+    background-color:#EEEEEE;
+    margin-bottom: 10px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+}
+
+.contact_wp .info_items .info_item .info_icon{
+    width: 50px;
+    height: 50px;
+    background-color: #ff305b;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.contact_wp .info_items .info_item .info_icon i{
+    transform: scale(1.5);
+
+}
+
+.contact_wp .info_items .info_item .info_content{
+    width: 90%;
+}
+
+.contact_wp .msg_form{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+    padding: 20px 0px 0px;
+}
+
+.contact_wp .msg_form form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contact_wp .msg_form form *{
+    width: 96%;
+    margin: auto;
+    padding: 15px 0px;
+    margin-bottom: 20px;
+}
+
+.contact_wp .msg_form form button{
+    width: 200px;
+    border-radius: 50px;
+    background-color: #ff305b;
+    color:#EEEEEE;
+    padding: 10px 0px;
+    transition: all .5s;
+}
+
+.contact_wp .msg_form form button:hover{
+    background-color: orange;
+}
+
+/************************* footer ******************************/
+footer{
+    background-color: #070607;
+    color: white;
+    padding: 40px 0px;
+}
+
+.footer_wp{
+    width: 90%;
+    margin: auto;
+}
+
+.footer_header .f_logo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer_header .f_logo h2{
+    font-size: 30px;
+    font-weight: 800;
+    margin-left: 10px;
+}
+
+.footer_header .f_logo img{
+    width: 10%;
+}
+
+.footer_header .f_logo h2::after{
+    content: '.';
+    color: #ff305b;
+}
+
+footer .footer_header{
+    margin-bottom: 20px;
+}
+
+footer .social_m{
+    margin-bottom: 40px;
+}
+
+footer .social_m h3{
+    margin: 20px 0px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    border-bottom: 3px solid grey;
+}
+
+footer .social_m ul {
+    padding: 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer .social_m li {
+    padding: 0px;
+}
+
+footer .social_m i {
+    transform: scale(2);
+}
+
+
+footer .social_m a{
+    color: #EEEEEE;
+}
+
+.footer_subscribe h2{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.footer_subscribe p{
+    margin-bottom: 10px;
+}
+
+.footer_subscribe #_email{
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 2px 0px;
+}
+
+.footer_subscribe button{
+    width: 100%;
+    background-color: #ff305b;
+    color: white;
+    padding: 2px 0px;
+}
+
+.footer_linker{
+    margin: 10px 0px 40px;
+}
+
+.footer_linker h2{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.footer_linker ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    justify-content: space-evenly;
+}
+
+.footer_linker li{
+    width: 48%;
+
+    padding: 5px 0px;
+    transition: all .5s;
+}
+
+.footer_linker a{
+    color: #EEEEEE; 
+}
+
+.footer_contact h2{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.footer_contact{
+    margin-bottom: 40px;
+}
+
+.footer_contact i{
+    color: #ff305b;
+    margin-right: 10px;
+    transform: scale(1.1);
+}
+
+
+.footer_linker li:hover{
+    background-color: #383636;
+    transform: translateX(5px);
+}
+

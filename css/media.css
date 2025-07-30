@@ -1,0 +1,178 @@
+@media screen and (min-width:720px){
+
+/* fonts */
+.font_title{
+
+}
+
+.font_main_header{
+
+}
+
+.font_sub_header{
+
+}
+
+.font_med{
+
+}
+
+
+/************************* Chefs ******************************/
+.chef_items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.chef_items .chef_info{
+    width: 45%;
+}
+
+
+/************************* Gallery ******************************/
+
+.Gallery_wp .gal_items{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 1200px;
+    align-items: center;
+}
+
+.Gallery_wp .img_item{
+    width: 30%;
+}
+
+
+/************************* contact ******************************/
+.contact_wp .info_items .info_item {
+    width: 48%;
+
+}
+
+.contact_wp .msg_form form #_name, #_email{
+    width: 46%;
+}
+
+
+/************ footer *************/
+.footer_wp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer_wp .footer_header{
+    width: 45%;
+}
+
+.footer_wp .mid_sec{
+    width: 90%;
+    order: 3;
+}
+
+.footer_wp .footer_contact{
+    width: 45%;
+}
+
+
+
+}
+
+@media screen and (min-width:1200px){
+.nav_wrapper{
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav_wrapper .nav_links{
+    visibility: visible;
+    position: static;
+}
+
+.nav_wrapper .nav_links ul{
+    display: flex;
+    
+}
+
+.nav_wrapper .nav_drop_btn{
+    visibility: hidden;
+}
+
+.nav_wrapper .nav_links a:hover{
+    border-bottom: 5px red solid;
+}
+
+
+header{
+    width: 85%;
+    margin: 95px auto 0px;
+}
+
+header .hp_img img{
+    margin: 0px;
+}
+.home_page_main{
+    height: 100vh;
+}
+header .home_page{
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+}
+header .hp_img{
+    width: 45%;
+    margin: 30px 0px;
+}
+
+header .hp_content{
+    width: 35%;
+    text-align: left;
+    margin: 0px;
+}
+
+
+/************************* chefs ******************************/
+
+.chef_items .chef_info{
+    width: 30%;
+}
+
+
+
+
+/************ footer *************/
+.footer_wp{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.footer_wp .footer_header{
+    width: 20%;
+    order: 1;
+}
+
+footer .social_m{
+    margin-bottom: 0px;
+}
+
+.footer_wp .mid_sec{
+    width: 50%;
+    order: 2;
+}
+
+.footer_linker{
+    margin: 10px 0px 0px;
+}
+
+.footer_wp .footer_contact{
+    width: 20%;
+    order: 3;
+    margin-bottom: 0px;
+}
+
+}
+
+
