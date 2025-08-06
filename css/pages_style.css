@@ -29,6 +29,22 @@
     width: 100%;
 }
 
+.chef_items .chef_info figure{
+    position: relative;
+}
+
+.chef_items .chef_info figure::before{
+    content: '';
+    width: 100%;
+    background-image: url(../images/wave.svg);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-repeat: repeat-x;
+    height: 3.75rem;
+
+}
+
 .chef_items .chef_info .links_layer{
     position: absolute;
     right: -30%;
